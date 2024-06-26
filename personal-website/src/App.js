@@ -1,19 +1,18 @@
 import React from 'react';
-import Particle from './components/particles';
-import './App.css';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
 
 function App() {
   return (
-    <div className="App relative h-screen">
-      <Particle id="particles" />
-      <header className="App-header mt-5 text-7xl font-bold text-center text-white">
-        <p>Miles Rudelic</p>
-      </header>
-      <body>
-        
-      </body>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/projects" element={<Projects/>} />
+      </Routes>
+    </Router>
   );
 }
 
