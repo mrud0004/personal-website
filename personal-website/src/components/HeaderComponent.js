@@ -8,7 +8,7 @@ function HeaderComponent() {
         <header className="App-header mt-5 text-7xl font-bold text-center text-white">
         <p>Miles Rudelic</p>
       </header>
-      <div className="flex justify-center mt-10 space-x-8">
+      <div className="flex justify-center mt-10 space-x-8 mr-6">
         <Link to="/" className="text-white text-xl hover:underline">
           Home
         </Link>
