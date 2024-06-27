@@ -1,8 +1,8 @@
 import React from 'react';
 import Particle from './components/particles';
-import { Link } from 'react-router-dom';
 import HeaderComponent from './components/HeaderComponent';
 import './Home.css';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 
 function About() {
@@ -60,7 +60,16 @@ function About() {
           </p>
         </div>
       </div>
+      <div className="absolute mt-5 mb-5 left-0 right-6 flex justify-center space-x-8 text-white text-10xl">
+        <a href="https://www.linkedin.com/in/miles-rudelic/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
+          <FaLinkedin />
+        </a>
+        <a href="https://www.instagram.com/miles_rudelic/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
+          <FaInstagram />
+        </a>
       </div>
+      </div>
+      
     );
   }
   

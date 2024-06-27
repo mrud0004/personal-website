@@ -30,13 +30,13 @@ function Projects() {
       ];
 
     return (
-      <div className="App relative h-screen">
+      <div className="App relative min-h-screen">
         <Particle id="particles" />
         <HeaderComponent/>
         <div className="container mx-auto p-8">
-        <div className="flex flex-wrap justify-center ml-3">
+        <div className="flex flex-col justify-center">
           {projects.map((project, index) => (
-            <div key={index} className="mt-4 mr-8">
+            <div key={index} className="mt-4 mr-8 w-full ">
               <ProjectDisplay
                 image={project.image}
                 title={project.title}
