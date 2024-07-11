@@ -26,6 +26,12 @@ function Projects() {
           title: "NBA HOF Machine Learning Project",
           description: "Utilised machine learning to predict NBA Hall of Fame inductions with a Random Forest model.",
           link: "https://github.com/mrud0004/nba-machine-learn-hof"
+        },
+        {
+          image: "/project4.png",
+          title: "Echo-News React APP",
+          description: "Built a news app with React that allows user to have a customised as well as general news feed, with intuitive design.",
+          link: "https://github.com/mrud0004/news-react-app"
         }
       ];
 

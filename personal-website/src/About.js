@@ -54,7 +54,27 @@ function About() {
           <p className="mb-4">
             Experience the tool live at my github page. (Note due to current server restrictions from Vercel only 1 page documents work at the moment).
           </p>
-          <h2 className="text-xl font-semibold mb-2">Connect With Me: </h2>
+          <h3 className="text-xl font-medium mb-1">The Watchlist: </h3>
+          <p className="mb-1">
+            Introduction: A website which will allow users to search for movies and add them to their watchlist.
+          </p>
+          <p className="mb-1">
+            Built With: React, Meteor.js and MongoDB.
+          </p>
+          <p className="mb-4">
+            Features: User ratings, AI Reccomendations, and a user collated watchlist.
+          </p>
+          <h3 className="text-xl font-medium mb-1">News React App: </h3>
+          <p className="mb-1">
+            Introduction: A custom news tool built as a react app which allows users to generate custom news feeds from an api.
+          </p>
+          <p className="mb-1">
+            Built With: React frontend and the News API.
+          </p>
+          <p className="mb-1">
+            Features: Top stories as well as the ability to choose custom topics to have as news stories.
+          </p>
+          <h2 className="text-xl font-semibold mb-4">Connect With Me: </h2>
           <p className="mb-4">
             Feel free to explore my projects and reach out if you’re interested in discussing technology, astrophysics, or any potential collaborations.
           </p>

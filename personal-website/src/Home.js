@@ -1,7 +1,7 @@
 import React from 'react';
 import Particle from './components/particles';
 import HeaderComponent from './components/HeaderComponent';
-import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import './Home.css';
 import RotatingCube from './components/RotatingCube';
 
@@ -21,6 +21,9 @@ function Home() {
         </a>
         <a href="https://www.instagram.com/miles_rudelic/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
           <FaInstagram />
+        </a>
+        <a href="https://github.com/mrud0004/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
+          <FaGithub />
         </a>
       </div>
     </div>
