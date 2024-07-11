@@ -2,18 +2,6 @@
 
 Welcome to my personal website project! This is a React-based website showcasing my portfolio, projects, and more.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Introduction
 
 This is my personal website where I share my projects, experiences, and contact information. The site is built using React and includes various sections such as Home, About, and Projects.
