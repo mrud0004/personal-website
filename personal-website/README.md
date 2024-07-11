@@ -13,7 +13,7 @@ This is my personal website where I share my projects, experiences, and contact 
 - **About Page**: Information about my background, education, and skills.
 - **Projects Page**: Showcase of my projects with descriptions and links.
 - **Interactive Elements**: Animated background and interactive 3D rotating cube.
-- **Responsive Design**: Optimized for both desktop and mobile views.
+- **Responsive Design**: Optimised for both desktop and mobile views.
 
 ## Technologies
 
