@@ -9,7 +9,7 @@ function HeaderComponent() {
         <p>Miles Rudelic</p>
       </header>
       <div className="flex justify-center mt-10 space-x-8 mr-6">
-        <Link to="/" className="text-white text-xl hover:underline">
+        <Link to="/home" className="text-white text-xl hover:underline">
           Home
         </Link>
         <Link to="/about" className="text-white text-xl hover:underline">
